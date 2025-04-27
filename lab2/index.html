@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Роза Гвидо</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кривая Розы Гвидо</h1>
+
+        <div class="form-group">
+            <label for="r">Радиус (r):</label>
+            <input type="number" id="r" required>
+        </div>
+
+        <div class="form-group">
+            <label for="theta">Угол (θ):</label>
+            <input type="number" id="theta" required>
+        </div>
+
+        <div class="form-group">
+            <label for="n">Параметр n:</label>
+            <input type="number" id="n" required>
+        </div>
+
+        <div class="form-group">
+            <label for="a">Параметр a:</label>
+            <input type="number" id="a" required>
+        </div>
+
+        <button id="calculate-btn">Вычислить</button>
+
+        <div id="result-content" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

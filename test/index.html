@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выравнивание резервуаров</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Выравнивание уровней в резервуарах</h1>
+        
+        <div class="input-section">
+            <h3>Входные данные</h3>
+            <div>
+                <label for="n">Количество резервуаров (n):</label>
+                <input type="number" id="n" min="1" max="100000" placeholder="Введите n">
+            </div>
+            <div style="margin-top: 10px;">
+                <label for="volumes">Объемы жидкости (через пробел):</label>
+                <input type="text" id="volumes" placeholder="Например: 1 2 3">
+            </div>
+            <button onclick="calculate()" style="margin-top: 15px;">Рассчитать</button>
+        </div>
+        
+        <div class="output-section">
+            <h3>Результат</h3>
+            <div id="result" class="result" style="display: none;"></div>
+        </div>
+        
+        <div class="visualization" id="visualization"></div>
+    </div>
+
+    <script src="./js/js.js">
+
+    </script>
+</body>
+</html>
